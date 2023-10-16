@@ -1,3 +1,3 @@
-console.log ((120-18)/5);
+console.log ((120-18)/6);
 
 
