@@ -1,1 +1,3 @@
-console.log("Hola git");
+console.log ((120-18)/5);
+
+
