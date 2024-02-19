@@ -49,4 +49,4 @@ console.log({"%cThe Rolling Stones"} ,estilonombre );
 
 /* Hola solo me sale en verde el grupo the Beatels, no se porque. Tmbien he intentado hacerlo simplificado
 poniendolo todo en el mismo console.log ejemplo: console.log({"%cThe beatels"},{"%cQueen"},{"%cAC DC"}, estilonombre); Pero 
-tampoco me sale.
+tampoco me sale.*/
