@@ -4,6 +4,7 @@ interface Grupos {
   activo: boolean;
   genero: string;
 }
+const estilonombre = "font-weight: bold; font-size: 16px; background-color: green; color: white";
 
 const grupoA: Grupos = {
   nombre: "The Beatles",
@@ -39,4 +40,13 @@ const grupoE: Grupos = {
   activo: true,
   genero: "Rock",
 };
-console.log(grupoE.año);
+console.log(grupoA, grupoB, grupoC, grupoD, grupoE);
+console.log({"%cThe beatels"}, estilonombre);
+console.log({"%cQueen"}, estilonombre);
+console.log({"%cAC DC"} , estilonombre);
+console.log({"%cLudwig van Beethoven"}, estilonombre);
+console.log({"%cThe Rolling Stones"} ,estilonombre );
+
+/* Hola solo me sale en verde el grupo the Beatels, no se porque. Tmbien he intentado hacerlo simplificado
+poniendolo todo en el mismo console.log ejemplo: console.log({"%cThe beatels"},{"%cQueen"},{"%cAC DC"}, estilonombre); Pero 
+tampoco me sale.
